@@ -1,0 +1,52 @@
+/* create an account*/
+.signinbtn{
+    text-decoration: none;
+    color:white;
+   border-radius: 5px;
+    background: #79b3e0;
+    display: inline;
+    padding:15px;
+}
+.signinbtn2{
+    padding:14px 60px;
+}
+/*menu bar design*/
+ul {
+    font-family: "Bookman Old Style";
+    font-size: 15px;
+    list-style-type: none;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #79b3e0;
+    /*background: yellow !important;;*/
+}
+
+.active {
+    background-color: #34d4bc;
+}
+
+/*# menu button*/
+.button{
+    background-color: #165e8e;
+}
